@@ -34,8 +34,8 @@ const InitGender = props => {
         <View style={styles.container}>
             <View style={styles.blockContainer}>
                 <Text style={styles.headingText}>Gender:</Text>
-                <RadioButton checked={maleCheck} onPress={maleCheckHandler} />
-                <RadioButton checked={femaleCheck} onPress={femaleCheckHandler} />
+                <RadioButton checked={maleCheck} imgGender='m' onPress={maleCheckHandler} />
+                <RadioButton checked={femaleCheck} imgGender='f' onPress={femaleCheckHandler} />
             </View>
             <Text style={styles.headingText}>Gender: {genderCheck}</Text>
         </View>
